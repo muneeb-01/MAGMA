@@ -10,7 +10,6 @@
   top: 0; /* The sticky behavior depends on this */
   height: 100vh;
   width: 100%;
-  background-color: aqua;
 }
 
 #page3 canvas {
