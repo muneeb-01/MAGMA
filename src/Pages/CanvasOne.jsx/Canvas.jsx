@@ -61,6 +61,7 @@ const Canvas = ({ canvas }) => {
 
   useEffect(() => {
     const canvas = document.querySelector("#canvas");
+
     if (frames.canvas === 1) {
       images = [];
       for (let i = 4; i <= 163; i += 3) {
@@ -76,6 +77,7 @@ const Canvas = ({ canvas }) => {
 
         img.onload = () => {
           imagesLoaded++;
+
           if (imagesLoaded === frames.count) {
             loadImage(frames.current);
             animate();

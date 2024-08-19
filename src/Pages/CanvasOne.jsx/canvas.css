@@ -1,7 +1,6 @@
 #parent {
   height: 720vh;
   position: relative; /* Make sure this is not conflicting */
-  background: red;
   width: 100vw;
 }
 
