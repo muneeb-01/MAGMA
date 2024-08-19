@@ -1,0 +1,19 @@
+#parent {
+  height: 720vh;
+  position: relative; /* Make sure this is not conflicting */
+  background: red;
+  width: 100vw;
+}
+
+#page3 {
+  position: sticky;
+  top: 0; /* The sticky behavior depends on this */
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+}
+
+#page3 canvas {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,19 @@
+#parent2 {
+  height: 720vh;
+  position: relative;
+  background: red;
+  width: 100vw;
+}
+
+#page3 {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+}
+
+#page3 > #canvas2 {
+  height: 100%;
+  width: 100%;
+}

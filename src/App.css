@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "a";
+  src: url("/Magma-main/jost-variable.ttf");
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+}
+#main {
+  position: relative;
+  background-color: #1137ca;
+}
